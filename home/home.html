@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chủ - GreenCare</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary-custom sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="home.html">GreenCare</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="home.html">Trang Chủ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../product/product.html">Sản Phẩm</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../info/info.html">Thông Tin</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../contact/contact.html">Liên Hệ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../cart/cart.html">Giỏ Hàng <span class="badge bg-secondary" id="cartBadge">0</span></a></li>
+                    <li class="nav-item" id="userMenu"><a class="nav-link" href="../login/login.html">Đăng Nhập</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <section class="hero-section">
+            <div>
+                <h1>GreenCare</h1>
+                <p>Phụ Kiện Chăm Sóc Cây Cảnh Cao Cấp</p>
+                <a href="../product/product.html" class="btn btn-accent btn-lg">Khám Phá Sản Phẩm</a>
+            </div>
+        </section>
+
+        <section class="container-custom py-5">
+            <h2 class="text-center text-primary-custom mb-5" style="font-weight: 700; font-size: 2.5rem;">Tại Sao Chọn GreenCare?</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="feature-card">
+                        <h5>Chất Lượng Cao Cấp</h5>
+                        <p>Sản phẩm chính hãng từ các thương hiệu nổi tiếng</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="feature-card">
+                        <h5>Giá Cả Hợp Lý</h5>
+                        <p>Giá tốt nhất trên thị trường với chất lượng đảm bảo</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="feature-card">
+                        <h5>Giao Hàng Nhanh</h5>
+                        <p>Miễn phí vận chuyển cho đơn hàng trên 500K</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="feature-card">
+                        <h5>Hỗ Trợ 24/7</h5>
+                        <p>Đội ngũ chuyên viên sẵn sàng giúp đỡ bạn</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-light-custom py-5">
+            <div class="container-custom">
+                <h2 class="text-center text-primary-custom mb-5" style="font-weight: 700; font-size: 2rem;">Sản Phẩm Nổi Bật</h2>
+                <div class="product-grid" id="featuredProducts"></div>
+                <div class="text-center mt-4">
+                    <a href="../product/product.html" class="btn btn-primary-custom">Xem Tất Cả Sản Phẩm</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-primary-custom text-white mt-5 py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <h5>GreenCare</h5>
+                    <p class="small footer-text-light">Phụ kiện chăm sóc cây cảnh cao cấp cho mọi nhà</p>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <h6>Liên Kết</h6>
+                    <ul class="list-unstyled small">
+                        <li><a href="../info/info.html" class="footer-text">Về Chúng Tôi</a></li>
+                        <li><a href="../info/info.html" class="footer-text">Chính Sách Bảo Mật</a></li>
+                        <li><a href="../info/info.html" class="footer-text">Điều Khoản Dịch Vụ</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h6>Liên Hệ</h6>
+                    <p class="small footer-text-light">Email: info@greencare.com<br>Phone: 1900 1234</p>
+                </div>
+            </div>
+            <hr class="border border-light-subtle">
+            <p class="text-center small mb-0 footer-text-light">&copy; 2024 GreenCare. Bảo lưu mọi quyền.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../data.js"></script>
+    <script src="home.js"></script>
+</body>
+</html>
